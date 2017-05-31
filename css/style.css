@@ -1,0 +1,148 @@
+body{
+    font-famyly: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+
+}
+
+/*global */
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+header ul{
+    margin:0;
+    padding:0;
+ }
+
+/*Header*/
+
+header{
+    background: #e8491d;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#000000 2px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+      float:left;
+      display:inline;
+      padding: 0 20px 0 20px;
+    }
+
+header #branding{
+  float: center;
+}
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 5px
+
+}
+
+header .current a{
+    color: #000000;
+    font-weight: bold;
+
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase{
+    border-bottom:#000000 2px solid;
+    min-height:400px;
+    background:url('../images/pong.jpg') no-repeat 0 -500px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:50px;
+  margin-bottom:10px;
+}
+
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* boxes for photos*/
+
+#photos{
+  margin-top: 20px;
+  }
+
+#photos .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+
+}
+
+#photos .box img{
+  width: 250px;
+}
+/* for contact page */
+
+#main {
+  margin-top: 50px;
+  text-align:center;
+
+}
+
+#main .box img{
+  width: 600px
+}
+
+footer {
+  padding: 20px;
+  margin-top:20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+/* media queris */
+ @media(max-width: 500px){
+   header #branding,
+header nav,
+header nav li,
+   #boxes .box{
+     float:none;
+     text-align: center;
+     width: 100%;
+    }
+
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+    margin-top: 40px
+  }
+
+ }
